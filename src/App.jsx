@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     if (latLon !== undefined) {
-      const API_KEY = "bdb6c5cfe4e8c9dbb5da637dfad435a9";
+      const API_KEY = "8b3ed51d2bee34d458aef65ff4a4e8d2";
       const URL = `//api.openweathermap.org/data/2.5/weather?lat=${latLon.lat}&lon=${latLon.lon}&appid=${API_KEY}`
       axios
         .get(URL)
